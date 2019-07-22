@@ -26,7 +26,8 @@
 
 - What are static members?
 - What is a namespace and why are we using them?
-- What is a partial class?
+- What are generic methods?
+- What are the most useful generic collections?
 
 ### Inheritance
 
