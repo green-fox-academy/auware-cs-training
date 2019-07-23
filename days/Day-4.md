@@ -36,15 +36,15 @@ On this day you are getting familiar with the DataGrid concepts.
 
 #### Optional
 
-[How to: Create a Bound Control and Format the Displayed Data](https://docs.microsoft.com/en-us/dotnet/framework/winforms/how-to-create-a-bound-control-and-format-the-displayed-data)
-[User Input Validation in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/user-input-validation-in-windows-forms)
+- [How to: Create a Bound Control and Format the Displayed Data](https://docs.microsoft.com/en-us/dotnet/framework/winforms/how-to-create-a-bound-control-and-format-the-displayed-data)
+- [User Input Validation in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/user-input-validation-in-windows-forms)
 
 ### Useful links
 
-https://stackoverflow.com/questions/2054667/in-tablelayoutpanel-if-dock-fill-and-autosize-true-then-last-column-row-occu
-https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/best-practices-for-the-tablelayoutpanel-control
-https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-a-tablelayoutpanel
-https://www.oipapio.com/question-1683834
+- https://stackoverflow.com/questions/2054667/in-tablelayoutpanel-if-dock-fill-and-autosize-true-then-last-column-row-occu
+- https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/best-practices-for-the-tablelayoutpanel-control
+- https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-a-tablelayoutpanel
+- https://www.oipapio.com/question-1683834
 
 ## Material Review
 
@@ -63,6 +63,7 @@ https://www.oipapio.com/question-1683834
 - What's a BindingSource?
 - What's the difference between simple binding vs list-based binding?
 - What is change notification?
+- What is one-time, one-way and two-way data binding?
 
 ### Data Grid
 
@@ -88,12 +89,15 @@ Create an application, which is containing a DataGrid displaying a restaurant's 
   - ServedAt (time of serving the dish for the guest)
   - TableNumber
 - If a dish has been ordered multiple times (eg. Tomato soup) please add new entries for each and every one, maybe someone asks for it with peanuts sometimes.
-- I can sort the list of orders by clicking on the column headers (A -> Z; Z -> A)
 - Fill up the list with fake data
 - Create a filterbar for the list
   - which is above of the table area (other WinForms component, like dropdowns or other elements)
   - which can filter for multiple columns as well
   - which has implemented filter for string, number, boolean, date type column values - bind please these types to the matching columns
+
+### Harder exercises
+
+- I can sort the list of orders by clicking on the column headers (A -> Z; Z -> A)
 
 ### Improving the Awesome Diner application
 

@@ -112,6 +112,7 @@ public class Person
 
 - [Green Fox Organization](../workshop/inheritance/green-fox/cs.md)
 - [Gardener](../workshop/inheritance/garden-app/README.md)
+- [Aircraft Carrier](../workshop/inheritance/aircraft-carrier/README.md)
 
 ### Exercises: WinForms
 

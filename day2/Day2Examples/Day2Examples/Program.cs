@@ -199,6 +199,10 @@ namespace Day2Examples
             mindegy = 56;
         }
 
+        public Student(string name, int q, int age, int a, int c) : base(name, age)
+        {
+        }
+
         public override void Print()
         {
             base.Print();

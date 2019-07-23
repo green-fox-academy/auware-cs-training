@@ -37,6 +37,9 @@ namespace WindowsFormsDemo
 
             Operation(numbers, 0, Add);
             Operation(numbers, 1, Multiply);
+
+            Add(1, 2);
+            Add(b: 2, a: 1);
         }
 
         int Sum(int[] numbers)
