@@ -44,8 +44,10 @@
 ### WinForms
 
 - What are WinForms?
+- What's a Form?
+- How to create a new window?
 - What are controls?
-- What is double buffering?
+  - What are the most commonly used controls?
 - What is a delegate?
 - What is an event?
 - What is event handling?
