@@ -16,13 +16,14 @@ On this day you are getting familiar with the DataGrid concepts.
 
 ### Data Binding
 
-| Material                                                                                                                                 | Time |
-| :--------------------------------------------------------------------------------------------------------------------------------------- | ---: |
-| [Winforms Data Binding](https://www.youtube.com/watch?v=9f7IoKQIraQ)                                                                     | 7:52 |
-| [Winforms Manual Databinding](https://www.youtube.com/watch?v=lQbmNWGVI88)                                                               | 9:43 |
-| [Windows Forms Data Binding](https://docs.microsoft.com/en-us/dotnet/framework/winforms/windows-forms-data-binding)                      | docs |
-| [Windows Forms Data Binding (Behind the Scenes)](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/aa480734(v=msdn.10)) | docs |
+| Material                                                                                                                                                          | Time |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---: |
+| [Winforms Data Binding](https://www.youtube.com/watch?v=9f7IoKQIraQ)                                                                                              | 7:52 |
+| [Winforms Manual Databinding](https://www.youtube.com/watch?v=lQbmNWGVI88)                                                                                        | 9:43 |
+| [Windows Forms Data Binding](https://docs.microsoft.com/en-us/dotnet/framework/winforms/windows-forms-data-binding)                                               | docs |
+| [Windows Forms Data Binding (Behind the Scenes)](https://docs.microsoft.com/en-us/previous-versions/dotnet/articles/aa480734(v=msdn.10))                          | docs |
 | [Change Notification in Windows Forms Data Binding](https://docs.microsoft.com/en-us/dotnet/framework/winforms/change-notification-in-windows-forms-data-binding) | docs |
+| [Using the BindingSource Class](https://flylib.com/books/en/3.404.1.98/1/)                                                                                        | docs |
 
 ### Data Grid
 
