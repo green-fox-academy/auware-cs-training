@@ -1,30 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LicencePlate
 {
     public partial class LicenceForm : Form
     {
-        private readonly Regex licenceCheckerRegex;
+        private LicencePlate licencePlate;
+
+        private delegate int MathDelegate(int a, int b);
+
         public LicenceForm()
         {
-            licenceCheckerRegex = new Regex("[A-Z]{3}-\\d{3}", RegexOptions.Compiled);
+            licencePlate = new LicencePlate();
             InitializeComponent();
+
+            MathDelegate mymethod;
+
+            mymethod = Add;
+
+            //...
+
+            mymethod(1, 2);
+        }
+
+        int Add(int a, int b)
+        {
+            return a + b;
         }
 
         private void BtnCheck_Click(object sender, EventArgs e)
         {
-            string licence = txtLicencePlate.Text;
+            licencePlate.Licence = txtLicencePlate.Text;
 
-            if(licenceCheckerRegex.IsMatch(licence))
+            if(licencePlate.IsValid)
             {
                 lblLicencePlateIsValid.Text = "valid";
                 lblLicencePlateIsValid.ForeColor = Color.Green;

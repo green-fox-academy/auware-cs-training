@@ -76,3 +76,8 @@ When the application receives a message from a peer, and the message is not orig
 ### List of users
 
 Create a window that shows all the usernames that occurred in the messages. The window should appear when you click on the "Show all users" button on the main window. All the usernames should be marked that has written a message less than 10 minutes ago.
+
+### Message archive
+
+Before exiting the application save all the messages to a file with the current date and time in the file name, e.g. `2019-07-22T14:05.txt`.
+Create a new form where users can browse all the archived messages, e.g. on the left hand side use a list of archive files available and then list the contents of the selected file.
