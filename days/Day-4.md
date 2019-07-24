@@ -99,6 +99,7 @@ Create an application, which contains a DataGrid displaying a restaurant's order
   - ServedAt (time of serving the dish for the guest)
   - TableNumber
 - If a dish has been ordered multiple times (eg. Tomato soup) please add new entries for each and every one, maybe someone asks for it with peanuts sometimes.
+- I can sort the list of orders by clicking on the column headers (A -> Z; Z -> A)
 
 #### Data Source
 
@@ -121,13 +122,25 @@ After the user provided valid data and clicked on the "Add" button the window cl
 
 The new item is also save to the CSV file.
 
-### Harder exercises
+### Remove an order
+
+Add a new button called "Remove" to the UI which removed the currently selected item.
+
+### Edit an order
+
+Add a new button called "Edit" to the UI, which can be used to edit the selected order item.
+
+Clicking on the button opens up the same dialog box as the "Add new order", but this time the fields are pre-filled with the item details to edit.
+
+The button text is "Edit" instead of "Add", and clicking on the button edits the current item and save to changes to the CSV file.
+
+### Add FilterBar
 
 - Create a filterbar for the list
   - which is above of the table area (other WinForms component, like dropdowns or other elements)
   - which can filter for multiple columns as well
   - which has implemented filter for string, number, boolean, date type column values - bind please these types to the matching columns
-- I can sort the list of orders by clicking on the column headers (A -> Z; Z -> A)
+
 
 ### Improving the Awesome Diner application
 
